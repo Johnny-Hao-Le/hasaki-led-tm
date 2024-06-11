@@ -7,7 +7,7 @@ import fnmatch
 import time
 import schedule
 
-api_url = "https://wshr.hasaki.vn/api/hr/music/songs/current-video-file?category_id=1"
+api_url = "https://wshr.hasaki.vn/api/hr/music/songs/current-video-file?category_id=2"
 
 def get_current_video():
     response = requests.get(api_url)
